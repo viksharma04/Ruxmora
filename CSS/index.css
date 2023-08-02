@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=IM+Fell+English&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+
+.navbar{
+    position: fixed;
+    width: 95vw;
+    background-color: transparent;
+}
+
+.logo {
+    font-family: 'Dancing Script', cursive;
+    font-size: 55px;
+    color: black;
+    margin: 0;
+}
+
+.image {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.pitch{
+    font-family: 'IM Fell English', serif;
+    font-size: 55px;
+}
+
+.content {
+    background-color: transparent;
+}
+
+
