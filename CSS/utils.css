@@ -1,8 +1,15 @@
+:root{
+    --dark: #934f2c;
+    --light: #d7bda6;
+    --p1: #bd8f70;
+}
+
 html{
     font-size: 16px;
 }
 
 body{
+    background-color: var(--p1);
     color: whitesmoke;
     text-align: left;
     margin: 0;

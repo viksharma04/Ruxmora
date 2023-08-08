@@ -47,15 +47,32 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: -1;
   }
 
 .pitch{
     font-family: 'IM Fell English', serif;
     font-size: 55px;
     padding: 0.5em;
+    position: fixed;
+    z-index: 0;
+    top: 25%;
+}
+
+.front-image{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../Images/frontground.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
 }
 
 .content {
+    position: relative;
     background-color: transparent;
 }
 
